@@ -6,7 +6,7 @@ print(stream)
 harvest=stream.readlines()[0].split(', ')
 print(type(harvest))
 print(harvest)
-stream.close
+stream.close()
 letter ='п'
 for fr in harvest:
     if fr[0] == letter:

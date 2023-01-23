@@ -31,7 +31,7 @@ while in_dialog:
             answer = input(f'Как бы ты ответила на фразу "{sentence}"?\nНаташа:')
             str_eam = open('bot.txt', mode = 'a', encoding='utf-8')
             str_eam.write(f'{sentence}: {answer}\n')
-            str_eam.close
+            str_eam.close()
             bot_dictionary[sentence] = answer
         
 

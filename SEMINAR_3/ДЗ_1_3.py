@@ -9,12 +9,12 @@ def fibon(z):
         fibo_1, fibo_2 =fibo_2, fibo_1 + fibo_2  
         print(fibo_1)        
         file.writelines(str(fibo_1) + '\n')
-    file.close
+    file.close()
 num = int(input('Введите целое положительное число   '))
 fibon(num)
 file = open('fibon.txt', mode = 'r',encoding = 'utf-8')
 print(file)
 file_content = file.read()
 print(file_content)
-file.close
+file.close()
 

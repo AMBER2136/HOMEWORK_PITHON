@@ -5,7 +5,7 @@ print(stream)
 harvest=stream.readlines()[0].split()
 print(type(harvest))
 print(harvest)
-stream.close
+stream.close()
 letter ='а'
 for flower in harvest:
     if flower[0] == letter:

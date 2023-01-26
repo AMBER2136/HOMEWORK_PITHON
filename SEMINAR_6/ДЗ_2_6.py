@@ -15,8 +15,8 @@ size = 15
 real = 231
 list_real = [int(i) for i in str(real)]
 print(list_real)
-# my_list = list(rint(0,20) for _ in range(size))
-my_list = [1,4,5,2,3,1,6,7,8,9,6,2,3,1]
+# my_list = list(rint(0,20) for _ in range(size)) 
+my_list = [1,4,5,2,3,1,6,7,8,9,6,2,3,1] # Это проверочный, демонстрационный массив!
 print(my_list)
 i,j=0,3
 count = 0

@@ -151,7 +151,7 @@ for i in range(0, (len(september_list)-interval+1)):
 # print(dat_list)
 
 hot_september = 0
-for i in range(len(may_mean_list)):
+for i in range(len(september_mean_list)):
     if may_mean_list[i] > hot_september:
             hot_september = september_mean_list[i]
             index_h = i

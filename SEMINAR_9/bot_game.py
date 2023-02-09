@@ -5,7 +5,7 @@ from telebot import types
 game_on = False
 secret_number = None
 
-bot = telebot.TeleBot("5634103797:AAFOLvXdoQGU8a2U-OWsO6OFo9BENYxr-3s", parse_mode=None)
+bot = telebot.TeleBot("XXX", parse_mode=None)
 # comand_list = ['/play_guess', '/stop']
 
 markup = types.ReplyKeyboardMarkup(row_width=2)

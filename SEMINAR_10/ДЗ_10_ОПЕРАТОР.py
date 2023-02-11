@@ -3,7 +3,7 @@ import telebot
 def answer_to_client(id, question, answer):
     bot.send_message(id, f'{question} \n{answer}')
 
-bot = telebot.TeleBot("5634103797:AAFOLvXdoQGU8a2U-OWsO6OFo9BENYxr-3s", parse_mode=None)
+bot = telebot.TeleBot("ZZZ", parse_mode=None)
 
 with open('request.txt', 'r', encoding = 'utf-8') as stream:
     request_list = stream.readlines()

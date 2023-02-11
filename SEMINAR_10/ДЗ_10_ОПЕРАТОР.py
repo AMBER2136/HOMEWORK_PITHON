@@ -7,7 +7,7 @@ bot = telebot.TeleBot("5634103797:AAFOLvXdoQGU8a2U-OWsO6OFo9BENYxr-3s", parse_mo
 
 with open('request.txt', 'r', encoding = 'utf-8') as stream:
     request_list = stream.readlines()
-    # print(request_list)
+    
     closed_requests = []
     for line in request_list:
         pos_line = line.split('#')

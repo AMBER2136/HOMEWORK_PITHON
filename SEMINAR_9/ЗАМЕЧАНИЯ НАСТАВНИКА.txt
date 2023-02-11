@@ -1,0 +1,12 @@
+Доброго дня, Михаил! Всё выполнено верно. Отличная работа.
+Счётчик нужно добавить в основной код игры:
+
+if player_number == secret_number:
+        game_on = False
+        bot.reply_to(message, f'Вы угадали, это число {secret_number}')
+elif secret_number > player_number + 4:
+        bot.reply_to(message, 'Это число больше, чем Ваше плюс 4')
+elif secret_number < player_number + 4:
+        bot.reply_to(message,'Это число меньше, чем Ваше плюс 4')
+В elif нужно добавить увеличение счётчика на 1, т.к. тут игрок делает ход, а в if добавить вывод счётчика, 
+т.к. тут игрок выиграл и больше ходов делать не будет.
